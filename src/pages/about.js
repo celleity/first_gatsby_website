@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 
-const SecondPage = () => {
+const AboutPage = () => {
   return (
     <Layout pageName="about">
       <Helmet>
@@ -18,4 +18,4 @@ const SecondPage = () => {
   );
 };
 
-export default SecondPage;
+export default AboutPage;

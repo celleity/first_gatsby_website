@@ -4,7 +4,11 @@ import Helmet from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 
-import img_gatsby from 'assets/images/gatsby-astronaut.png';
+import img_gatsby from 'assets/images/easel_icon.svg';
+import img_gatsby2 from 'assets/images/sewing_icon.svg';
+import img_gatsby3 from 'assets/images/list_icon.svg';
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const IndexPage = () => {
   return (
@@ -13,25 +17,18 @@ const IndexPage = () => {
         <title>Home Page</title>
       </Helmet>
       <Container>
-        <p className="gatsby-astronaut">
-          <img src={img_gatsby} alt="Build with Gatsby!" />
-        </p>
-        <h1>Gatsby Sass Starter</h1>
+        <img class="icon" src={img_gatsby} alt="Build with Gatsby!" />
+		<img class="icon" src={img_gatsby2} alt="Build with Gatsby!" />
+		<img class="icon" src={img_gatsby3} alt="Build with Gatsby!" />
+        <h1>Celine's Sassy Page</h1>
         <p>
-          Welcome to your new Gatsby site.
+          A web page to share my creations 
         </p>
-        <p>
-          Now go build something great.
-        </p>
-        <h2>Still Getting Started?</h2>
-        <p>
-          Run the following in your terminal!
-        </p>
-        <pre>
-          <code>
-            gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-sass
-          </code>
-        </pre>
+
+        
+        
+        
+        
       </Container>
     </Layout>
   );

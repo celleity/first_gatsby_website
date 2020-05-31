@@ -8,17 +8,22 @@ const Header = () => {
     <header>
       <Container>
         <p>
-          My Gatsby Site
+         Celine's Web Site
         </p>
+		</Container>
+		
         <ul>
+		<div  class="nav-right">
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/page-2/">Page 2</Link>
+            <Link to="/about/">About</Link>
           </li>
+		  </div>
         </ul>
-      </Container>
+		
+      
     </header>
   );
 };

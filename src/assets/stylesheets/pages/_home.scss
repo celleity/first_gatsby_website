@@ -1,22 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Montserrat&display=swap');
+$headerFont: 'Codystar', cursive;
+$regularFont: 'Montserrat', sans-serif;
+
+
+
+
 .page-home {
 
+
+
+
   h1 {
-    color: black;
+    color: #70c9d9;
+    font-size:72px;
+    font-family:$regularFont;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+   // background-color:whitesmoke;
+
+
   }
 
-  .gatsby-astronaut {
+  main p {
+      font-family:$regularFont;
+      font-size:36px;
+      color:#4f6c82;
+
+
+
+
+  }
+
+
+
+  .icon {
 
     overflow: hidden;
-    width: 10em;
-    height: 10em;
-    background-color: rebeccapurple;
-    border-radius: 100%;
-    border: solid 6px rebeccapurple;
+    width: 12em;
+    height: 12em;
+    background-color: none;
+    border-radius: 100%;      
     margin: 0 auto 1em;
+    fill: aqua;
 
-    img {
-      width: 100%;
-    }
+
+    &:hover {
+            background-color: darkred;
+        }
+
+   
 
   }
 

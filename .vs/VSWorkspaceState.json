@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\images",
+    "\\src\\assets\\images\\1x",
+    "\\src\\assets\\stylesheets",
+    "\\src\\assets\\stylesheets\\components",
+    "\\src\\assets\\stylesheets\\pages",
+    "\\src\\components",
+    "\\src\\pages"
+  ],
+  "SelectedNode": "\\src\\assets\\stylesheets\\pages\\_home.scss",
+  "PreviewInSolutionExplorer": false
+}

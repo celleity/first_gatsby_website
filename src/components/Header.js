@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <Container>
         <p>
-         Celine's Web Site
+          <Link to="/">Celine's Web Site</Link>
         </p>
 		</Container>
 		

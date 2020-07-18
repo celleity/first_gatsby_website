@@ -4,18 +4,18 @@ import Helmet from 'react-helmet';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 
-const SecondPage = () => {
+const FashionPage = () => {
   return (
-    <Layout pageName="about">
+    <Layout pageName="fashion">
       <Helmet>
-        <title>About</title>
+        <title>Fashion</title>
       </Helmet>
       <Container>
-        <h1>About</h1>
-        <p>This is the about page</p>
+        <h1>Fashion</h1>
+        <p>This is the fashion page</p>
       </Container>
     </Layout>
   );
 };
 
-export default SecondPage;
+export default FashionPage;

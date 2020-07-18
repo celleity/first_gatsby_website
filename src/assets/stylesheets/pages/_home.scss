@@ -10,48 +10,64 @@ $regularFont: 'Montserrat', sans-serif;
 
 
 
-  h1 {
-    color: #70c9d9;
-    font-size:72px;
-    font-family:$regularFont;
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-    margin:auto;
-   // background-color:whitesmoke;
+    h1 {
+        color: #ffffff;
+        font-size: 72px;
+        font-family: $regularFont;
+        display: inline-flex;
+        justify-content: left;
+        align-items: left;
+        margin: auto;
+        // background-color:whitesmoke;
+    }
+
+    main p {
+        font-family: $regularFont;
+        font-size: 36px;
+        color: #4f6c82;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
 
 
-  }
 
-  main p {
-      font-family:$regularFont;
-      font-size:36px;
-      color:#4f6c82;
+    .iconhover {
+      //  display: inline-flex;
+        position: absolute;
+        width: 20%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        opacity: 0;
+    }
 
+     .iconhover:hover {
+        background-color: darkred;
+        opacity: 1;
+    }
 
+    
 
+    .icon {
+     //   display: inline-flex;
+        position:relative;
+        width: 20%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
 
-  }
-
-
-
-  .icon {
-
-    overflow: hidden;
-    width: 12em;
-    height: 12em;
-    background-color: none;
-    border-radius: 100%;      
-    margin: 0 auto 1em;
-    fill: aqua;
-
-
-    &:hover {
-            background-color: darkred;
-        }
-
-   
-
-  }
-
+    .icon:hover {
+        background-color: darkred;
+        //opacity: 0;
+    }
 }

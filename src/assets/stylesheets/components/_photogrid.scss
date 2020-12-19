@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Montserrat&display=swap');
+$headerFont: 'Codystar', cursive;
+$regularFont: 'Montserrat', sans-serif;
+
+photogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+}

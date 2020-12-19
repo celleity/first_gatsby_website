@@ -6,12 +6,12 @@ import Container from 'components/Container';
 
 const ListsPage = () => {
   return (
-    <Layout pageName="lists">
+    <Layout pageName="lists" titleName="Lists">
       <Helmet>
         <title>Lists</title>
       </Helmet>
       <Container>
-        <h1>Lists</h1>
+      
         <p>This is the list page</p>
       </Container>
     </Layout>

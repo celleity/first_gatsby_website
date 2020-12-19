@@ -9,17 +9,18 @@ body {
 }
 
 .wrapper {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+   
 }
 
 main {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-content: left;
-  justify-content: left;
-  //padding: 2em 0;
-  margin:auto;
+    display: initial;
+    position:relative;
+    min-height: 80vh;
+    align-content: left;
+    justify-content: left;
+    //padding: 2em 0;
+  //  margin: auto;
 }

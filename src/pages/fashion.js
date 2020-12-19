@@ -6,13 +6,13 @@ import Container from 'components/Container';
 
 const FashionPage = () => {
   return (
-    <Layout pageName="fashion">
+    <Layout pageName="fashion" titleName="Fashion">
       <Helmet>
         <title>Fashion</title>
       </Helmet>
       <Container>
-        <h1>Fashion</h1>
-        <p>This is the fashion page</p>
+      
+        <p >This is the fashion page</p>
       </Container>
     </Layout>
   );

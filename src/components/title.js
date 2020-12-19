@@ -3,13 +3,14 @@ import { Link } from 'gatsby';
 
 import Container from 'components/Container';
 
-const Title = () => {
+const Title = ({titleName}) => {
   return (
-    <Title>
-      <h1> </h1>
+    <title>
+	<div>
+       <h1>  {titleName} </h1>
 		
-      
-    </Title>
+      </div>
+    </title>
   );
 };
 

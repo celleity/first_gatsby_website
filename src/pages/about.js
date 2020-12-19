@@ -3,18 +3,26 @@ import Helmet from 'react-helmet';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
+import Title from 'components/Title';
+
 
 const AboutPage = () => {
   return (
-    <Layout pageName="about">
+    <Layout pageName="about" titleName="About">
+	  
       <Helmet>
         <title>About</title>
       </Helmet>
-      <Container>
-        <h1>About</h1>
-        <p>This is the about page</p>
-      </Container>
+    
+	  
+		  <div id="background">
+        <p id="about-content">I am a creative person. I studied applied arts and computer science. I grew up in the woods with my family, and had my own rock and tree (designated to me by my older sister). </p>
+		</div>
+     
+	
     </Layout>
+
+	 
   );
 };
 

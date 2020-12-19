@@ -6,8 +6,10 @@ import 'assets/stylesheets/application.scss';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+import Title from 'components/Title';
 
-const Layout = ({ children, pageName }) => {
+
+const Layout = ({ children, pageName, titleName}) => {
 
   let className = '';
 
@@ -20,8 +22,12 @@ const Layout = ({ children, pageName }) => {
       <Helmet bodyAttributes={{ class: className}}>
         <title>Celine's Web Site</title>
       </Helmet>
+	
+
       <div className="wrapper">
         <Header />
+		  <Title titleName={titleName}/>
+		 
         <main>{ children }</main>
         <Footer />
       </div>
@@ -32,6 +38,7 @@ const Layout = ({ children, pageName }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  
 }
 
 export default Layout;

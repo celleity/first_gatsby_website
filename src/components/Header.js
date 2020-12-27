@@ -6,32 +6,32 @@ import Container from 'components/Container';
 const Header = () => {
   return (
     <header>
-      <Container>
-        <p>
+      <nav>
+	  <ul >
+	  <div className="leftNav">
+        <li id="right" >
           <Link to="/">Celine's Web Site</Link>
-        </p>
-		</Container>
-		
-        <ul>
-		<div  class="nav-right">
-          <li>
+        </li>      
+		</div>
+		<div className="rightNav">
+          <li >
             <Link to="/">Home</Link>
           </li>
-		  <li>
+		  <li >
             <Link to="/art/">Art</Link>
           </li>
-          <li>
+          <li >
             <Link to="/about/">About</Link>
-          </li>
-		    <li>
+          </li >
+		    <li >
             <Link to="/fashion/">Fashion</Link>
           </li>
-		  <li>
+		  <li >
             <Link to="/lists/">Lists</Link>
           </li>
-		  </div>
+		 </div>
         </ul>
-		
+		</nav>
       
     </header>
   );

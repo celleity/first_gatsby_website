@@ -24,13 +24,13 @@ const Layout = ({ children, pageName, titleName}) => {
       </Helmet>
 	
 
-      <div className="wrapper">
+      
         <Header />
-		  <Title titleName={titleName}/>
+		 
 		 
         <main>{ children }</main>
-        <Footer />
-      </div>
+      
+      
     </>
   );
 

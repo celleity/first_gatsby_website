@@ -15,7 +15,7 @@ const ArtPage = () => {
         <title>Art</title>
       </Helmet>
 	  <div id="background">
-	  <p id="artP">  </p>
+	  <p id="artPage">  </p>
 	  
 	 
 	 

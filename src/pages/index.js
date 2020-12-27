@@ -10,7 +10,7 @@ import img_gatsby_hover2 from 'assets/images/sewing_icon_hover.svg';
 import img_gatsby_hover3 from 'assets/images/list_icon_hover.svg';
 import img_gatsby_hover4 from 'assets/images/user_hover.svg';
 
-
+import HoverImage from 'react-hover-image'
 import img_gatsby2 from 'assets/images/sewing_icon2.svg';
 import img_gatsby3 from 'assets/images/list_icon2.svg';
 import img_gatsby4 from 'assets/images/user.svg';
@@ -18,30 +18,30 @@ import img_gatsby4 from 'assets/images/user.svg';
 import Img from "gatsby-image"
 
 const IndexPage = () => {
+
+ const styling = {
+	 position: "relative", 
+	 top: "25%",
+	 bottom: "50%"
+
+
+ }
+
+
   return (
     <Layout pageName="home">
       <Helmet>
         <title>Home Page</title>
       </Helmet>
       <Container>
-		<div id="icon_group">
-         <Link to="/art/"><img class="icon" src={img_gatsby} alt="Build with Gatsby!" /></Link>
-		<Link to="/fashion/"><img class="icon" src={img_gatsby2} alt="Build with Gatsby!" /></Link> 				
-		<Link to="/lists/"><img class="icon" src={img_gatsby3} alt="Build with Gatsby!" /></Link>
-		 <Link to="/about/"><img class="icon" src={img_gatsby4} alt="Build with Gatsby!" /></Link> 	
-		 </div>
-       
-	   <div id="icon_group_hover">
-         <Link to="/art/"><img class="icon_hover" src={img_gatsby_hover} alt="Build with Gatsby!" /></Link>
-		<Link to="/fashion/"><img class="icon_hover" src={img_gatsby_hover2} alt="Build with Gatsby!" /></Link> 				
-		<Link to="/lists/"><img class="icon_hover" src={img_gatsby_hover3} alt="Build with Gatsby!" /></Link>
-		 <Link to="/about/"><img class="icon_hover" src={img_gatsby_hover4} alt="Build with Gatsby!" /></Link> 	
-		 </div>
-        
-        
-        
-        
-     	 </Container>
+	
+	<div className="columns" id="one"><Link to="/art/">	<HoverImage  className="icon" style={styling} src={img_gatsby} hoverSrc={img_gatsby_hover}  alt="Build with Gatsby!" /></Link>	</div>
+	<div className="columns" id="two"><Link to="/fashion/"><HoverImage  className="icon" src={img_gatsby2} hoverSrc={img_gatsby_hover2}  alt="Build with Gatsby!" /></Link>  </div>
+	<div className="columns" id="three"><Link to="/lists/"><HoverImage  className="icon" src={img_gatsby3} hoverSrc={img_gatsby_hover3}  alt="Build with Gatsby!" /></Link>  </div>
+	<div className="columns" id="four"> <Link to="/about/"><HoverImage   className="icon" src={img_gatsby4} hoverSrc={img_gatsby_hover4}  alt="Build with Gatsby!" /></Link>  </div>
+		
+	 
+	</Container>
     </Layout>
   );
 };

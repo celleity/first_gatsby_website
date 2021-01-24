@@ -5,31 +5,20 @@ import { Link, useStaticQuery, graphql } from 'gatsby';
 
 import Container from 'components/Container';
  
-const List = ({data, listName} ) => {
-		console.log(data);
-		console.log(listName);
+const List = ({data, listName, className} ) => {
+		
 	const linkName = "#" + listName.replace(/\s+/g, '');
  
 	 
-	   const [isDisplayed, setDisplay] = useState(false);
-	   const [style, setStyle] = useState("none");
-	    const handleDisplay = () => {
-        setDisplay(!isDisplayed);
-		console.log(isDisplayed);
-    }
 
-	   useEffect(() => {
-	   isDisplayed ?  setStyle("grid") : setStyle("none")
-      
-   }, [isDisplayed]);
 
       
        return ( 
 
-		<div className="listdiv">
+		<div >
 		
-		<Link onClick={handleDisplay} className="listHeader" to={linkName}> {listName} </Link>
-			<ul className="list" id={linkName} style={{display: style} }>{getListNames(data)} </ul> 
+		
+			<ul className={className} id={linkName} >{getListItems(data)} </ul> 
 			
 		</div>
 
@@ -40,7 +29,7 @@ const List = ({data, listName} ) => {
 	   };
 
 
-	   function getListNames(data) {
+	   function getListItems(data) {
 			const listArray = []; 
 
 			if (data.allBookJson){

@@ -2,27 +2,30 @@
 	{
 
 		"book": "Kafka on the shore",
-		"author": " Haruki Marukami"
+    "author": " Haruki Marukami",
+    "link": "/thoughts/#Kafka"
 
 
 	}
 	,
 
-	{
+  {
 
-		"book": "Woman in the dunes",
-		"author": " Kobo Abe"
+    "book": "Woman in the dunes",
+    "author": " Kobo Abe",
+    "link": "/thoughts/#Kobo"
 
 
-	}
+  }
 	,
-	{
+  {
 
-		"book": "Jpod",
-		"author": "Douglas Coupland"
+    "book": "Jpod",
+    "author": "Douglas Coupland",
+    "link": "/thoughts/#Jpod"
 
 
-	}
+  }
 
 
 

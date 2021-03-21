@@ -2,7 +2,8 @@
   {
 
     "show": "Dirk Gently's Holistic Detective Agency",
-    "director": "Max Landis"
+    "director": "Max Landis",
+    "link": "/thoughts/#Landis"
 
 
   },
@@ -10,14 +11,16 @@
   {
 
     "show": "Babylon Berlin",
-    "director": "Tom Tykwer, Achim von Borries and Hendrik Handloegten"
+    "director": "Tom Tykwer, Achim von Borries and Hendrik Handloegten",
+    "link": "/thoughts/#Berlin"
 
 
   },
   {
 
     "show": "Parks and Rec",
-    "director": "Greg Daniels and Michael Shur"
+    "director": "Greg Daniels and Michael Shur",
+    "link": "/thoughts/#Shur"
 
 
   },
@@ -25,22 +28,25 @@
   {
 
     "show": "Normal People",
-    "director": "Lenny Abrahamson and Hettie Macdonald"
-   
+    "director": "Lenny Abrahamson and Hettie Macdonald",
+    "link": "/thoughts/#NormalPeople"
+
 
 
   },
   {
 
     "show": "The Detectorists",
-    "director": "Mackenzie Crook"
+    "director": "Mackenzie Crook",
+    "link": "/thoughts/#Crook"
 
 
   },
   {
 
     "show": "Death in Paradise",
-    "director": "Robert Thorogood"
+    "director": "Robert Thorogood",
+    "link": "/thoughts/#DeathInParadise"
 
 
   }

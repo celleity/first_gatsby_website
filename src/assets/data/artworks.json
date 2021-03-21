@@ -2,7 +2,8 @@
   {
 
     "artwork": "Nighthawks",
-    "artist": "Edward Hopper"
+    "artist": "Edward Hopper",
+    "link": "/thoughts/#Hopper"
 
 
   },
@@ -10,27 +11,31 @@
   {
 
     "artwork": "Son of Man",
-    "artist": "Rene Magrite"
+    "artist": "Rene Magrite",
+    "link": "/thoughts/#Magritte"
 
 
   },
   {
 
     "artwork": "Santiago El Grande",
-    "artist": "Salvador Dali"
+    "artist": "Salvador Dali",
+    "link": "/thoughts/#Dali"
 
   },
 
   {
 
     "artwork": "Untitled\" (Portrait of Ross in L.A.)",
-    "artist": "Felix Gonzalez-Torres"
+    "artist": "Felix Gonzalez-Torres",
+    "link": "/thoughts/#Torres"
 
   },
   {
 
     "artwork": "Love Conquers All!",
-    "artist": "The Icelandic Love Corporation"
+    "artist": "The Icelandic Love Corporation",
+    "link": "/thoughts/#Love"
 
   }
 

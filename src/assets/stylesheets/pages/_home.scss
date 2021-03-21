@@ -9,7 +9,7 @@ $regularFont: 'Montserrat', sans-serif;
         width: 100%;
         // height: 100%;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .columns {
@@ -17,6 +17,7 @@ $regularFont: 'Montserrat', sans-serif;
         justify-content: center;
         align-items: center;
         justify-items: center;
+        text-align: center;
     }
 
     img {
@@ -32,6 +33,13 @@ $regularFont: 'Montserrat', sans-serif;
         }
     }
 
+    h1 {
+        //  display:inline-grid;
+        top: 25%;
+        bottom: 50%;
+        display: none;
+    }
+
     #test {
         position: relative;
         top: 25%;
@@ -42,6 +50,11 @@ $regularFont: 'Montserrat', sans-serif;
 
         &hover {
             background-color: none;
+            display: grid;
+        }
+
+        h1 &:hover {
+            display: grid;
         }
     }
 
@@ -63,5 +76,18 @@ $regularFont: 'Montserrat', sans-serif;
 
     #four {
         background-color: palevioletred;
+
+        img {
+            margin-left: 2em;
+            
+        }
+    }
+
+    #five {
+        background-color: darkslateblue;
+
+        img {
+            margin-top: 4em;
+        }
     }
 }

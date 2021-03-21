@@ -10,6 +10,7 @@ export const useShowData = () => {
 				node {
 				 show
 				 director
+				 link
 				}
 			}
         

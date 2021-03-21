@@ -10,6 +10,7 @@ export const useSongData = () => {
 				node {
 				 song
 				 band
+				 link
 				}
 			}
         

@@ -2,7 +2,8 @@
   {
 
     "song": "All we ever wanted was everything",
-    "band": "Bauhaus"
+    "band": "Bauhaus",
+    "link": "/thoughts/#Bauhaus"
 
 
   },
@@ -10,27 +11,31 @@
   {
 
     "song": "Creep",
-    "band": "Radiohead"
+    "band": "Radiohead",
+    "link": "/thoughts/#Creep"
 
 
   },
   {
 
     "song": "False Jesii Part 2",
-    "band": "Pissed Jeans"
+    "band": "Pissed Jeans",
+    "link": "/thoughts/#PissedJeans"
 
   },
 
   {
 
     "song": "Women",
-    "band": "Timber Timbre"
+    "band": "Timber Timbre",
+    "link": "/thoughts/#Timbre"
 
   },
   {
 
     "song": "Sleepwalking",
-    "band": "Modest Mouse"
+    "band": "Modest Mouse",
+    "link": "/thoughts/#Mouse"
 
   }
 

@@ -1,17 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
     "\\src",
     "\\src\\assets",
-    "\\src\\assets\\images",
-    "\\src\\assets\\images\\1x",
+    "\\src\\assets\\gallery",
     "\\src\\assets\\stylesheets",
     "\\src\\assets\\stylesheets\\components",
     "\\src\\assets\\stylesheets\\pages",
     "\\src\\components",
+    "\\src\\hooks",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\assets\\stylesheets\\components\\_footer.scss",
+  "SelectedNode": "\\src\\assets\\stylesheets\\pages\\art.scss",
   "PreviewInSolutionExplorer": false
 }

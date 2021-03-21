@@ -34,23 +34,23 @@ const List = ({data, listName, className} ) => {
 
 			if (data.allBookJson){
 			data.allBookJson.edges.forEach(item => 
-				listArray.push(<li key={item.node.book}> "{item.node.book}" by {item.node.author} </li> )
+				listArray.push(<li key={item.node.book}>  <a href={item.node.link}> "{item.node.book}" by {item.node.author} </a> </li> )
 			);}
 			if (data.allMoviesJson){
 			data.allMoviesJson.edges.forEach(item => 
-				listArray.push(<li key={item.node.movie}> "{item.node.movie}" directed by {item.node.director} </li> )
+				listArray.push(<li key={item.node.movie}> <a href={item.node.link}> "{item.node.movie}" directed by {item.node.director} </a> </li> )
 			);}
 			if (data.allArtworksJson){
 			data.allArtworksJson.edges.forEach(item => 
-				listArray.push(<li key={item.node.artwork}> "{item.node.artwork}" by {item.node.artist} </li> )
+				listArray.push(<li key={item.node.artwork}>  <a href={item.node.link}> "{item.node.artwork}" by {item.node.artist} </a> </li> )
 			);}
 			if (data.allSongsJson){
 			data.allSongsJson.edges.forEach(item => 
-				listArray.push(<li key={item.node.song}> "{item.node.song}" by {item.node.band} </li> )
+				listArray.push(<li key={item.node.song}>  <a href={item.node.link}>  "{item.node.song}" by {item.node.band} </a> </li> )
 			);}
 			if (data.allShowsJson){
 			data.allShowsJson.edges.forEach(item => 
-				listArray.push(<li key={item.node.show}> "{item.node.show}" by {item.node.director} </li> )
+				listArray.push(<li key={item.node.show}>  <a href={item.node.link}> "{item.node.show}" by {item.node.director} </a> </li> )
 			);}
 
 			return listArray;

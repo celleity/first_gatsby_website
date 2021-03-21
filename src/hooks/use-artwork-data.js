@@ -10,6 +10,7 @@ export const useArtworkData = () => {
       node {
         artist
         artwork
+		link
       }
     }
   }

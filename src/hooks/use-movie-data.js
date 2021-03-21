@@ -10,6 +10,7 @@ export const useMovieData = () => {
 				node {
 				 movie
 				 director
+				 link
 				}
 			}
         

@@ -11,6 +11,7 @@ export const useBookData = () => {
 					node {
 						book
 						author
+						link
 
 
 					}		

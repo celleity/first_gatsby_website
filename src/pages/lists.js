@@ -143,7 +143,7 @@ const ListsPage = () => {
 			
 			</div>
 			 <div className="aboutsection"> 
-			<List data={useBookData()} href="#BestBooks" listName="Best Books" className={bookStyle} /> 
+			<List data={useBookData()} href="#BestBooks" listName="Best Books" className={bookStyle} />  
 			<List  data={useMovieData()}listName="Best Movies" className={movieStyle}/> 
 			<List data={useSongData()}listName="Best Songs"className={songStyle} /> 
 			<List data={useShowData()}listName="Best TV Shows" className={showStyle}/> 

@@ -2,7 +2,8 @@
   {
 
     "movie": "Submarine",
-    "director": "Richard Ayoade"
+    "director": "Richard Ayoade",
+    "link": "/thoughts/#Ayoade"
 
 
   },
@@ -10,14 +11,16 @@
   {
 
     "movie": "Amelie",
-    "director": "Jean-Pierre Jeunet"
+    "director": "Jean-Pierre Jeunet",
+    "link": "/thoughts/#Jeunet"
 
 
   },
   {
 
     "movie": "Beginners",
-    "director": "Mike Mills"
+    "director": "Mike Mills",
+    "link": "/thoughts/#Mills"
 
 
   },
@@ -25,21 +28,24 @@
   {
 
     "movie": "Guess Who's Back",
-    "director": " David Wnendt"
+    "director": " David Wnendt",
+    "link": "/thoughts/#Wnendt"
 
 
   },
   {
 
     "movie": "Death of Stalin",
-    "director": "Armando Iannucci"
+    "director": "Armando Iannucci",
+    "link": "/thoughts/#Iannucci"
 
 
   },
   {
 
     "movie": "Hunt for the Wilderpeople",
-    "director": "Taika Waititi"
+    "director": "Taika Waititi",
+    "link": "/thoughts/#Waititi"
 
 
   }

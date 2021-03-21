@@ -1,7 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-
+import { Link, useStaticQuery, graphql } from 'gatsby';
 import Layout from 'components/Layout';
+import Gallery from 'components/PhotoGrid';
 import Container from 'components/Container';
 
 const ArtPage = () => {
@@ -11,8 +12,13 @@ const ArtPage = () => {
         <title>Art</title>
       </Helmet>
       <Container>
-      
-        <p>This is the art page</p>
+            
+
+			  <div className="artwork"> 
+			   <Gallery/> 
+			 
+			   </div> 
+				
       </Container>
     </Layout>
   );

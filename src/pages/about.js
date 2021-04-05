@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
-import Title from 'components/Title';
+
 
 
 const AboutPage = () => {
@@ -11,7 +11,7 @@ const AboutPage = () => {
     <Layout pageName="about" titleName="About">
 	  
       <Helmet>
-        <title>About</title>
+       
       </Helmet>
     
 	  

@@ -12,7 +12,7 @@ export const Get_gallery_images = () => {
         nodes {
           id
           childImageSharp {
-            fluid (maxWidth: 750){
+            fluid (maxWidth: 750 maxHeight: 500){
                 base64
     			aspectRatio
    				src
@@ -24,6 +24,7 @@ export const Get_gallery_images = () => {
       }
     }
   `);
+
 
   return data.allFile.nodes
 };

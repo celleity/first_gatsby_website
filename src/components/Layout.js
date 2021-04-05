@@ -6,7 +6,7 @@ import 'assets/stylesheets/application.scss';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
-import Title from 'components/Title';
+
 
 
 const Layout = ({ children, pageName, titleName}) => {
@@ -20,7 +20,7 @@ const Layout = ({ children, pageName, titleName}) => {
   return (
     <>
       <Helmet bodyAttributes={{ class: className}}>
-        <title>Celine's Web Site</title>
+        
       </Helmet>
 	
 

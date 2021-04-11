@@ -25,7 +25,7 @@ $regularFont: 'Montserrat', sans-serif;
         flex: 1;
         justify-content: space-evenly;
         background-color: gold;
-        position:sticky;
+        position: sticky;
 
         h1 {
             padding: .3em;
@@ -43,6 +43,45 @@ $regularFont: 'Montserrat', sans-serif;
             }
         }
     }
+
+
+    .tile {
+        align-items: center;
+        justify-items: center;
+
+    }
+
+
+    .caption {
+       // z-index: 5;
+        //display:grid;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        visibility: hidden;
+        opacity: 0;
+        font-family: $regularFont;
+        font-size:2em;
+        
+    }
+
+    .tile:hover .caption {
+        visibility: visible;
+        opacity: 1;
+      //  background-color:gold;
+        display:flex;
+
+    }
+
+   .tile  img:hover {
+
+       opacity:.2 !important;
+     
+
+    }
+
+
+
 
 
     a:-webkit-any-link {

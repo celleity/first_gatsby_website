@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+    "\\content",
+    "\\content\\gallery",
+    "\\content\\gallery\\Ink",
+    "\\content\\gallery\\Other",
+    "\\content\\gallery\\Photography",
+    "\\content\\gallery\\Prints",
+    "\\content\\gallery\\Sketchbooks",
+    "\\content\\gallery\\Watercolour",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\gallery",
-    "\\src\\assets\\stylesheets",
-    "\\src\\assets\\stylesheets\\components",
-    "\\src\\assets\\stylesheets\\pages",
-    "\\src\\components",
-    "\\src\\hooks",
-    "\\src\\pages"
+    "\\src\\hooks"
   ],
-  "SelectedNode": "\\src\\assets\\stylesheets\\pages\\art.scss",
+  "SelectedNode": "\\src\\gatsby-theme-gallery\\hooks\\useOtherGallery.ts",
   "PreviewInSolutionExplorer": false
 }

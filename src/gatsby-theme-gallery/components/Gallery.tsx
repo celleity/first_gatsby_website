@@ -17,7 +17,7 @@ import Tile from "./Tile";
 const imgStyles: any = {
   css: {
     position: "absolute",
-	//display:"flex",
+	display:"grid",
     left: 0,
     top: 0,
     width: "100%",
@@ -82,12 +82,15 @@ const Gallery = ({galleryMedium}) => {
       <Grid>
         {images.map((image, index) => (
           <Tile
+			className="tile"
             key={image.id}
             onClick={() => {
               setShowImageIndex(index);
             }}
-          >
-            <Img alt={image.name} fluid={image.fluid} {...imgStyles} />
+          > 	<div className="caption"> {image.name} </div>
+            <Img alt={image.name} fluid={image.fluid} {...imgStyles}/>
+		
+			
           </Tile>
         ))}
       </Grid>

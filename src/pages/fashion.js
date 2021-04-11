@@ -8,7 +8,7 @@ const FashionPage = () => {
   return (
     <Layout pageName="fashion" titleName="Fashion">
       <Helmet>
-        <title>Fashion</title>
+     
       </Helmet>
       <Container>
       

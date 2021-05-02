@@ -15,7 +15,7 @@ const Headings = ({headingNames, page}) => {
 	<div className="headingNames">
 	 
 	 {headingNames.map((name) => (
-       <a href={"#" + name}> <h1>  {name} </h1> </a>
+       <a key={name} href={"#" + name}> <h1>  {name} </h1> </a>
 		 ))
    }
       </div>

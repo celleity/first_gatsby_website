@@ -4,8 +4,8 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-auto-rows: 16rem;
- 
-  background-color:gold;
+
+
   @media (min-width: 1280px) {
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     grid-auto-rows: 24rem;

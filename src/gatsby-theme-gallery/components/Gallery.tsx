@@ -10,6 +10,7 @@ import usePhotographyGallery from "../hooks/usePhotographyGallery";
 import usePrintsGallery from "../hooks/usePrintsGallery";
 import useAcrylicGallery from "../hooks/useAcrylicGallery";
 import useOtherGallery from "../hooks/useOtherGallery";
+import useSewingGallery from "../hooks/useSewingGallery";
 import useSketchbooksGallery from "../hooks/useSketchbooksGallery";
 import Grid from "./Grid";
 import Tile from "./Tile";
@@ -18,13 +19,14 @@ const imgStyles: any = {
   css: {
     position: "absolute",
 	display:"grid",
+	backgroundcolor:"black",
     left: 0,
     top: 0,
     width: "100%",
     height: "100%",
     transition: "transform 0.5s, filter 0.25s",
     "&:hover": {
-      transform: "scale(1.1)",
+      //transform: "scale(1.1)",
       filter: "saturate(1.3)",
     },
   },
@@ -32,44 +34,44 @@ const imgStyles: any = {
 
 const Gallery = ({galleryMedium}) => {
 		var images; 
-		console.log(galleryMedium)
+	
 	if (galleryMedium === ("Ink")){
 		images = useInkGallery();
-		console.log(galleryMedium)
-		console.log(images)
+
 	}
 		
 	if (galleryMedium === ("Watercolour")){
 		images = useWatercolourGallery();
-		console.log(galleryMedium)
-		console.log(images)
+	
 	}
 	if (galleryMedium === ("Sketchbooks")){
 		images = useSketchbooksGallery();
-		console.log(galleryMedium)
-		console.log(images)
+		
 	}
 		if (galleryMedium === ("Photography")){
 		images = usePhotographyGallery();
-		console.log(galleryMedium)
-		console.log(images)
+	
 	}
 	if (galleryMedium === ("Prints")){
 		images = usePrintsGallery();
-		console.log(galleryMedium)
-		console.log(images)
+	
 	}
 
 	if (galleryMedium === ("Acrylic")){
 		images = useAcrylicGallery();
-		console.log(galleryMedium)
-		console.log(images)
+	
 	}
 	if (galleryMedium === ("Other")){
 		
 		images = useOtherGallery();
-		console.log(galleryMedium)
+	
+	}
+
+	if (galleryMedium === ("Sewing")){
+		
+		images = useSewingGallery();
 		console.log(images)
+	
 	}
 	
   
@@ -78,6 +80,7 @@ const Gallery = ({galleryMedium}) => {
   >(undefined);
 
   return (
+ 
     <div id={galleryMedium}>
       <Grid>
         {images.map((image, index) => (
@@ -87,7 +90,7 @@ const Gallery = ({galleryMedium}) => {
             onClick={() => {
               setShowImageIndex(index);
             }}
-          > 	<div className="caption"> {image.name} </div>
+          > {galleryMedium !== "Sewing" ?	<div className="caption">   {image.name}  </div> : null}
             <Img alt={image.name} fluid={image.fluid} {...imgStyles}/>
 		
 			

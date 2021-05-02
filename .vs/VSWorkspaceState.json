@@ -3,15 +3,14 @@
     "",
     "\\content",
     "\\content\\gallery",
-    "\\content\\gallery\\Ink",
-    "\\content\\gallery\\Other",
-    "\\content\\gallery\\Photography",
-    "\\content\\gallery\\Prints",
-    "\\content\\gallery\\Sketchbooks",
     "\\content\\gallery\\Watercolour",
     "\\src",
-    "\\src\\hooks"
+    "\\src\\assets",
+    "\\src\\assets\\stylesheets",
+    "\\src\\assets\\stylesheets\\components",
+    "\\src\\assets\\stylesheets\\pages",
+    "\\src\\components"
   ],
-  "SelectedNode": "\\src\\gatsby-theme-gallery\\hooks\\useOtherGallery.ts",
+  "SelectedNode": "\\src\\assets\\stylesheets\\components\\dropdown.scss",
   "PreviewInSolutionExplorer": false
 }

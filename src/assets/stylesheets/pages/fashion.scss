@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Montserrat&display=swap');
+$headerFont: 'Codystar', cursive;
+$regularFont: 'Montserrat', sans-serif;
+
+.page-fashion {
+
+	body {
+		height: 100%;
+	}
+
+	main {
+		// background-color:black;
+		background-color: orange;
+		display: grid;
+		height: 90.7vh;
+		overflow-y: hidden;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+
+
+	#Sewing {
+		display: flex;
+		grid-column: 3/5;
+		flex-direction: column;
+		padding:2em;
+		grid-gap:.5em;
+	
+}
+
+
+
+
+	.container {
+		//width: 100%;
+		height: 100%;
+		display: grid;
+		position: static;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 10em 2fr;
+		// grid-template-rows: repeat(auto-fill, minmax(10em, 2fr));
+		background-color: orange;
+	}
+
+
+
+
+	h1 {
+		display: grid;
+		//  width: 100%;
+		align-content: center;
+		margin-bottom: auto;
+		grid-column: 1/2;
+		grid-row: 1/2;
+		padding-left: .7em;
+		padding-right: 1em;
+		font-size: 5em;
+		font-family: $regularFont;
+		// border-bottom: 1px solid black;
+	}
+
+
+	::-webkit-scrollbar-track {
+		background: white; /* color of the tracking area */
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: indianred; /* color of the scroll thumb */
+		border-radius: 20px; /* roundness of the scroll thumb */
+		// border: 3px solid indianred; /* creates padding around scroll thumb */
+	}
+}
